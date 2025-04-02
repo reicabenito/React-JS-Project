@@ -1,0 +1,88 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffecf5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 5px;
+}
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  background-color: #ff8ec3;
+}
+
+h2 {
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.form-container {
+  background: #908eff00;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+
+button:hover {
+  opacity: 0.9;
+}
+
+.view-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #ff8ec3;
+  color: #ffffff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ff8ec3;
+  font-weight: bold;
+}
+.odd-row {
+  background-color: #ffcee6;
+}
+
+tr:hover {
+  background-color: #868484;
+}
